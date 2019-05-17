@@ -14,7 +14,10 @@
     "type": "git",
     "url": "git+https://github.com/pelevesque/make-grid.git"
   },
-  "keywords": [],
+  "keywords": [
+    "grid",
+    "array"
+  ],
   "author": "Pierre-Emmanuel Lévesque <pierre.e.levesque@gmail.com>",
   "license": "MIT",
   "bugs": {
