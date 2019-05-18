@@ -4,7 +4,7 @@
 const expect = require('chai').expect
 const makeGrid = require('../index')
 
-describe('#grid', () => {
+describe('#makeGrid()', () => {
   it('rows = 0 and cols = 0 should return an empty grid.', () => {
     const numRows = 0
     const numCols = 0
