@@ -31,7 +31,7 @@ const numRows = 3
 const numCols = 5
 const cellWidth = 2
 const cellHeight = 3
-const  grid = makeGrid(numRows, numCols, cellWidth, cellHeight)
+const grid = makeGrid(numRows, numCols, cellWidth, cellHeight)
 // outputs
 [ [ { x: 0, y: 0, w: 2, h: 3 },
     { x: 2, y: 0, w: 2, h: 3 },
