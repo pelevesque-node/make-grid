@@ -27,6 +27,10 @@ Creates a two dimensional array arranged as a grid with `x`, `y`, `w`, `h` value
 ## Usage
 
 ```js
+const makeGrid = require('@pelevesque/make-grid')
+```
+
+```js
 const numRows = 3
 const numCols = 5
 const cellWidth = 2
