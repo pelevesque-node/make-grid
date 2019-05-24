@@ -1,6 +1,6 @@
 {
   "name": "@pelevesque/make-grid",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Creates a two dimensional array arranged as a grid with `x`, `y`, `w`, `h` values on each item.",
   "main": "index.js",
   "engines": {
