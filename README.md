@@ -8,7 +8,7 @@ Creates a two dimensional array arranged as a grid with `x`, `y`, `w`, `h` value
 
 ## Node Repository
 
-[https://www.npmjs.com/package/@pelevesque/make-grid](https://www.npmjs.com/package/@pelevesque/make-grid)
+https://www.npmjs.com/package/@pelevesque/make-grid
 
 ## Installation
 
