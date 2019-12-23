@@ -38,19 +38,24 @@ const cellHeight = 3
 const grid = makeGrid(numRows, numCols, cellWidth, cellHeight)
 
 // result
-grid = [ [ { x: 0, y: 0, w: 2, h: 3 },
+grid = [
+  [ { x: 0, y: 0, w: 2, h: 3 },
     { x: 2, y: 0, w: 2, h: 3 },
     { x: 4, y: 0, w: 2, h: 3 },
     { x: 6, y: 0, w: 2, h: 3 },
-    { x: 8, y: 0, w: 2, h: 3 } ],
-  [ { x: 0, y: 3, w: 2, h: 3 },
+    { x: 8, y: 0, w: 2, h: 3 }
+  ], [
+    { x: 0, y: 3, w: 2, h: 3 },
     { x: 2, y: 3, w: 2, h: 3 },
     { x: 4, y: 3, w: 2, h: 3 },
     { x: 6, y: 3, w: 2, h: 3 },
-    { x: 8, y: 3, w: 2, h: 3 } ],
-  [ { x: 0, y: 6, w: 2, h: 3 },
+    { x: 8, y: 3, w: 2, h: 3 }
+  ], [
+    { x: 0, y: 6, w: 2, h: 3 },
     { x: 2, y: 6, w: 2, h: 3 },
     { x: 4, y: 6, w: 2, h: 3 },
     { x: 6, y: 6, w: 2, h: 3 },
-    { x: 8, y: 6, w: 2, h: 3 } ] ]
+    { x: 8, y: 6, w: 2, h: 3 }
+  ]
+]
 ```
