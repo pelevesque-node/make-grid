@@ -15,16 +15,6 @@ describe('#makeGrid()', () => {
     expect(JSON.stringify(result)).to.equal(JSON.stringify(expected))
   })
 
-  it('rows = 1 and cols = 0 should return an empty grid', () => {
-    const numRows = 1
-    const numCols = 0
-    const cellWidth = 0
-    const cellHeight = 0
-    const result = makeGrid(numRows, numCols, cellWidth, cellHeight)
-    const expected = []
-    expect(JSON.stringify(result)).to.equal(JSON.stringify(expected))
-  })
-
   it('rows = 0 and cols = 1 should return an empty grid', () => {
     const numRows = 0
     const numCols = 1
@@ -32,6 +22,16 @@ describe('#makeGrid()', () => {
     const cellHeight = 0
     const result = makeGrid(numRows, numCols, cellWidth, cellHeight)
     const expected = []
+    expect(JSON.stringify(result)).to.equal(JSON.stringify(expected))
+  })
+
+  it('rows = 1 and cols = 0 should return a grid with an empty row', () => {
+    const numRows = 1
+    const numCols = 0
+    const cellWidth = 0
+    const cellHeight = 0
+    const result = makeGrid(numRows, numCols, cellWidth, cellHeight)
+    const expected = [[]]
     expect(JSON.stringify(result)).to.equal(JSON.stringify(expected))
   })
 
