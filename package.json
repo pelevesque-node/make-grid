@@ -4,7 +4,7 @@
   "description": "Creates a two dimensional array arranged as a grid with `x`, `y`, `w`, `h` values on each item.",
   "main": "index.js",
   "engines": {
-    "node": ">=6.4.0"
+    "node": ">=9.0.0"
   },
   "scripts": {
     "test": "standard & mocha --reporter spec",
